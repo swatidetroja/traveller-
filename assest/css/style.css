@@ -42,7 +42,7 @@ ul {
     color: #020202;
     margin-bottom: 2.9rem;
     max-width: 74rem;
-    margin: 0 auto;
+    margin: 2.2rem auto;
 }
 
 .sub-title {
@@ -187,11 +187,12 @@ header nav ul li a {
     margin-top: 20rem;
 }
 .explore-slide {
-    box-shadow: 0 2rem 3.5rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
 }
 .explore-img {
     height: 36.1rem;
     padding: 0 1rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.10);
 }
 .explore-img img {
     width: 100%;
@@ -204,6 +205,7 @@ header nav ul li a {
     position: relative;
     padding: 0 1.9rem 2.6rem 1.4rem;
     opacity: 0;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.10);
 }
 .explore-circle {
     width: 8rem;
@@ -243,12 +245,12 @@ header nav ul li a {
     height: 6.6rem;
     background-color:white;
     border-radius: 1rem;
-    /* border: 1px solid #E8E8E8; */
+    border: 1px solid #E8E8E8;
     top: 3rem;
-    box-shadow: 0 0.8rem 5rem 0 rgba(0, 0, 0, 0.25); 
+    box-shadow: 0 0.8rem 5rem 0 rgba(0, 0, 0, 0.10); 
 }
 .explore-slider .swiper-wrapper{
-    padding-top: 13rem;
+    padding: 13rem 0;
 }
 .explore-slider .swiper-button-prev::after,
 .explore-slider .swiper-button-next::after{
@@ -258,13 +260,33 @@ header nav ul li a {
 }
 
 .explore-slide:hover .explore-data {
+    border-radius: 0 0 1rem 1rem;
     opacity: 1;
+}
+.explore-slide:hover .explore-img img{
+    border-radius: 1rem 1rem 0 0;
+}
+.explore-slide:hover{
+    transform: translateY(-1rem);
 }
 /*****************************/
 
 /************Choose***********/
 #choose{
-    margin-top: 20rem;
+    /* margin-top: 20rem; */
+}
+#choose{
+    background: url(../images/choosebenner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+#choose::before {
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /*****************************/
