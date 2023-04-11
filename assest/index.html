@@ -149,36 +149,64 @@
                 <h2 class="main-title">Why choose Us?</h2>
                 <p class="sub-title">our services have been trusted by world travelers.</p>
                 <!-- Swiper -->
-                <div class="swiper choose-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/chhose1.png" alt="">
-                            <h4>Best Service</h4>
-                            <p>our service is reliable and convenient, our service is quality.</p>
+                <div class="container">
+                    <div class="swiper choose-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="./images/chhose1.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h4>Best Service</h4>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="./images/choose2.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h4>Price Guarantee</h4>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="choose-slide">
+                                    <div class="choose-img">
+                                        <img src="./images/choose3.png" alt="">
+                                    </div>
+                                    <div class="choose-data">
+                                        <h4>Handpicked Hotels</h4>
+                                        <p>our service is reliable and convenient, our service is quality.</p>
+                                        <a href="#">Leaern more <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="swiper-slide">
+                                    <div class="choose-slide">
+                                        <div class="choose-img">
+                                            <img src="./images/chhose1.png" alt="">
+                                        </div>
+                                        <div class="choose-data">
+                                            <h4>Best Service</h4>
+                                            <p>our service is reliable and convenient, our service is quality.</p>
+                                            <a href="#">Leaern more <i class="fa-solid fa-arrow-right"></i></a>    
+                                        </div>
+                                    </div>
+                                </div> 
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./images/choose2.png" alt="">
-                            <h4>Price Guarantee</h4>
-                            <p>our service is reliable and convenient, our service is quality.</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/choose3.png" alt="">
-                            <h4>Handpicked Hotels</h4>
-                            <p>our service is reliable and convenient, our service is quality.</p>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/chhose1.png" alt="">
-                            <h4>Best Service</h4>
-                            <p>our service is reliable and convenient, our service is quality.</p>
-                        </div>
-                        
                         
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-pagination"></div>
                 </div>
-
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
     </main>
@@ -216,36 +244,32 @@
             },
         });
     </script>
-    
+
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".choose-slider", {
             slidesPerView: 1,
             spaceBetween: 10,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-                breakpoints: {
-                    640: {
-                        slidesPerView: 1,
-                        spaceBetween: 0,
-                    },
-                    768: {
-                        slidesPerView: 2,
-                        spaceBetween: 0,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 0,
-                    },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
                 },
-            });
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                },
+            },
+        });
     </script>
 
 </body>
