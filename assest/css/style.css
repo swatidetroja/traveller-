@@ -339,9 +339,8 @@ header nav ul li a {
     line-height: 36px;
     color: #000000;
     margin-top: 3.4rem;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.1rem;  
 }
-
 .choose-slide .choose-data p {
     font-style: normal;
     font-weight: 500;
@@ -350,7 +349,6 @@ header nav ul li a {
     color: #858585;
     margin-bottom: 3.9rem;
 }
-
 .choose-slide .choose-data a {
     font-style: normal;
     font-weight: 500;
@@ -375,9 +373,27 @@ header nav ul li a {
     color: #737373;
     font-weight: bold;
 }
-/*****************************/
-
 #choose .container .container{
     max-width: 115rem;
     margin: 0 auto;
 }
+/*****************************/
+/*********tour*************/
+#tour{
+    margin-top: 17.8rem;
+}
+#tour .sub-title{
+    width: 63rem;
+    margin: 0 auto;
+    margin-bottom: 6.7rem;
+}
+.container .partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner{
+    padding: ;
+}
+
+/*****************************/

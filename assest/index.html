@@ -209,6 +209,30 @@
                 <div class="swiper-button-next"></div>
             </div>
         </section>
+        <section id="tour">
+            <div class="container">
+                <h2 class="main-title">Our tour partner</h2>
+                <p class="sub-title">There are many variation of passage of lorem ipsum available but the majority have suffered alteration </p>
+                <div class="partner">
+                    <div class="p1">
+                        <img src="./images/Katana.png" alt="">
+                    </div>
+                    <div class="p2">
+                        <img src="./images/travava.png" alt="">
+                    </div>
+                    <div class="p3">
+                        <img src="./images/bigui.png" alt="">
+                    </div>
+                    <div class="p4">
+                        <img src="./images/Booking.com.png" alt="">
+                    </div>
+                    <div class="p5">
+                        <img src="./images/Jakmaen.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
     </main>
 
     <footer>
@@ -244,32 +268,36 @@
             },
         });
     </script>
-
+    
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".choose-slider", {
             slidesPerView: 1,
             spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            breakpoints: {
-                640: {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 0,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 0,
+                    },
                 },
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 0,
-                },
-                1024: {
-                    slidesPerView: 3,
-                    spaceBetween: 0,
-                },
-            },
-        });
+            });
     </script>
 
 </body>
