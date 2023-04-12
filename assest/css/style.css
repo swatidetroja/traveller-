@@ -290,9 +290,11 @@ header nav ul li a {
     margin-top: 17.8rem;
     padding-top: 2.7rem;
 }
-#choose .container{
+
+#choose .container {
     position: relative;
 }
+
 .choose-slide {
     margin: 0 4.5rem;
     border-radius: 1rem;
@@ -300,6 +302,7 @@ header nav ul li a {
     background-color: #FFFFFF;
     box-shadow: 0 0.8rem 6rem 0 rgba(0, 0, 0, 0.15);
 }
+
 #choose {
     background: url(../images/choosebenner.jpg);
     background-size: 100% 54.2rem;
@@ -307,6 +310,7 @@ header nav ul li a {
     background-repeat: no-repeat;
     position: relative;
 }
+
 #choose::before {
     content: '';
     inset: 0;
@@ -314,17 +318,21 @@ header nav ul li a {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
 #choose .main-title,
 #choose .sub-title {
     color: #FFFFFF;
 }
-.choose-slider .swiper-wrapper{
+
+.choose-slider .swiper-wrapper {
     padding: 16rem 0;
 }
+
 .choose-img {
     width: 9.5rem;
     height: 9.7rem;
 }
+
 .choose-img img {
     width: 100%;
     height: 100%;
@@ -339,8 +347,9 @@ header nav ul li a {
     line-height: 36px;
     color: #000000;
     margin-top: 3.4rem;
-    margin-bottom: 1.1rem;  
+    margin-bottom: 1.1rem;
 }
+
 .choose-slide .choose-data p {
     font-style: normal;
     font-weight: 500;
@@ -349,6 +358,7 @@ header nav ul li a {
     color: #858585;
     margin-bottom: 3.9rem;
 }
+
 .choose-slide .choose-data a {
     font-style: normal;
     font-weight: 500;
@@ -356,8 +366,9 @@ header nav ul li a {
     line-height: 27px;
     color: #000000;
 }
+
 #choose .swiper-button-prev,
-#choose .swiper-button-next{
+#choose .swiper-button-next {
     position: absolute;
     width: 6.9rem;
     height: 6.6rem;
@@ -367,33 +378,101 @@ header nav ul li a {
     top: 15.5rem;
     box-shadow: 0 0.8rem 5rem 0 rgba(0, 0, 0, 0.10);
 }
+
 #choose .swiper-button-prev::after,
 #choose .swiper-button-next::after {
     font-size: 2.5rem;
     color: #737373;
     font-weight: bold;
 }
-#choose .container .container{
+
+#choose .container .container {
     max-width: 115rem;
     margin: 0 auto;
 }
+
 /*****************************/
 /*********tour*************/
-#tour{
+#tour {
     margin-top: 17.8rem;
 }
-#tour .sub-title{
+
+#tour .sub-title {
     width: 63rem;
     margin: 0 auto;
     margin-bottom: 6.7rem;
 }
-.container .partner {
+
+#tour .partner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    left: 18.6rem;
 }
-.partner{
-    padding: ;
+
+#tour .partner {
+    padding: 0 16rem;
+    margin-left: 6.9rem;
 }
 
 /*****************************/
+
+/**********client************/
+#client {
+    margin-top: 18rem;
+}
+
+#client .client-container {
+    width: 100%;
+    margin-left: 6.9rem;
+}
+#client h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 0.14em;
+    color: #626262;
+}
+#client .main-title {
+    text-align: left;
+    margin: 0rem;
+}
+#client .sub-title {
+    text-align: left;
+}
+#client p {
+    max-width: 45rem;
+}
+.client-slide{
+    margin: 2.3rem;
+    background-color: #9a7979;
+    box-shadow: 0 2rem 6rem 0 rgba(0, 0, 0, 0.1);
+}
+.client-img{
+    width: 13rem;
+}
+.client-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 13.5rem 5.1rem 13.4rem;
+}
+.client-data{
+    padding:0  5.4rem 5.1rem 5.3rem;
+}
+.client-slider .client-data h4{
+    /* margin: 1.8rem 14.6rem 5.1rem 14.5rem; */
+    text-align: center;
+}
+.client-data p{
+    /* margin: 0 14.6rem 5.1rem 14.5rem; */
+}
+.client-data a img{
+    /* margin: 5rem 21.3rem 5.1rem 5.3rem; */
+}
+.client-data p{
+    width: 29.2rem;
+}
+/****************************/
