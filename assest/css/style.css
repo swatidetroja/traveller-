@@ -564,14 +564,13 @@ header nav ul li a {
     width: 67.6rem;
     margin: 8.8rem 42.2rem 15.7rem 41.8rem;
     border-radius: 3.5rem;
-    background-color: #FFFFFF;
-    ou
+    background-color: #FFFFFF;   
 }
 .subscribe input{
-    width: 53.6rem;
     border: none;
-    padding: 2.2rem 3rem;
+    padding: 2.2rem 17.8rem;
     outline: none;
+    margin-left: 2.5rem;
 }
 .subscribe button {
     color:#DFDFDF;
