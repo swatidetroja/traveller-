@@ -40,9 +40,8 @@ ul {
     line-height: 70px;
     text-align: center;
     color: #020202;
-    margin-bottom: 2.9rem;
     max-width: 74rem;
-    margin: 2.2rem auto;
+    margin: 0 auto;
 }
 
 .sub-title {
@@ -61,7 +60,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9;
+    z-index: 10;
 }
 
 header .container {
@@ -138,19 +137,18 @@ header nav ul li a {
     margin-top: 3.7rem;
     margin-bottom: 2rem;
 }
-
 .search-box {
     width: 73.6rem;
     background: #FFFFFF;
     border-radius: 7.2rem;
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2rem 3.5rem rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 0.9rem 1rem 2.3rem;
 }
-
 .search-box select {
+    font-family: 'Poppins';
     border: none;
     font-style: normal;
     font-weight: 600;
@@ -159,7 +157,6 @@ header nav ul li a {
     background: #FFFFFF;
     color: #9B9B9B;
 }
-
 #submit {
     background-color: #000;
     border-radius: 3rem;
@@ -168,7 +165,7 @@ header nav ul li a {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 3.6rem;
     color: #FFFFFF;
 }
 
@@ -186,7 +183,9 @@ header nav ul li a {
 #explore {
     margin-top: 17.8rem;
 }
-
+#explore .main-title{
+    margin-bottom: 3rem;
+}
 .explore-slide {
     border-radius: 1rem;
     padding: 0 1rem;
@@ -256,11 +255,11 @@ header nav ul li a {
     border-radius: 1rem;
     border: 1px solid #E8E8E8;
     top: 3rem;
-    box-shadow: 0 0.8rem 5rem 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 0 0.8rem 1rem 0 rgba(0, 0, 0, 0.10);
 }
 
 .explore-slider .swiper-wrapper {
-    padding: 13rem 0;
+    padding-top: 13rem;
 }
 
 .explore-slider .swiper-button-prev::after,
@@ -300,11 +299,11 @@ header nav ul li a {
     border-radius: 1rem;
     padding: 4.5rem 2.2rem 7rem 2rem;
     background-color: #FFFFFF;
-    box-shadow: 0 0.8rem 6rem 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.15);
 }
 
 #choose {
-    background: url(../images/choosebenner.jpg);
+    background: url(../images/choose-background.jpg);
     background-size: 100% 54.2rem;
     background-position: top center;
     background-repeat: no-repeat;
@@ -318,6 +317,9 @@ header nav ul li a {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
 }
+#choose .main-title{
+    margin-bottom:0.6rem;
+}
 
 #choose .main-title,
 #choose .sub-title {
@@ -325,7 +327,7 @@ header nav ul li a {
 }
 
 .choose-slider .swiper-wrapper {
-    padding: 16rem 0;
+    padding: 17rem 0;
 }
 
 .choose-img {
@@ -394,27 +396,21 @@ header nav ul li a {
 /*****************************/
 /*********tour*************/
 #tour {
-    margin-top: 17.8rem;
+    /* margin-top: 17.8rem; */
 }
 
 #tour .sub-title {
     width: 63rem;
     margin: 0 auto;
     margin-bottom: 6.7rem;
+    margin-top: 2rem;
 }
-
 #tour .partner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 18.6rem;
+    padding: 0 15rem;
 }
-
-#tour .partner {
-    padding: 0 16rem;
-    margin-left: 6.9rem;
-}
-
 /*****************************/
 
 /**********client************/
@@ -428,7 +424,7 @@ header nav ul li a {
 }
 
 .client-slider .swiper-wrapper {
-    padding-top: 7.7rem;
+    padding: 7rem 0;
 }
 
 #client h3 {
@@ -446,6 +442,7 @@ header nav ul li a {
 }
 
 #client .sub-title {
+    margin-top: 1.8rem;
     text-align: left;
 }
 
@@ -464,12 +461,10 @@ header nav ul li a {
 }
 
 .client-img img {
-    /* width: 100%;
-    height: 100%; */
     object-fit: cover;
     object-position: center center;
     position: absolute;
-    top: 20%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -492,7 +487,7 @@ header nav ul li a {
 }
 
 .client-data {
-    box-shadow: 0 2rem 6rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.10);
     padding: 9rem 5.4rem 5.1rem 5.3rem;
 }
 
@@ -566,6 +561,7 @@ header nav ul li a {
 #price .sub-title {
     width: 63rem;
     margin: 0 auto;
+    margin-top: 2.4rem;
 }
 
 #price .sub-title {
@@ -576,24 +572,25 @@ header nav ul li a {
 .subscribe {
     width: 67.6rem;
     margin: 0 auto;
-    border-radius: 4rem;
+    border-radius: 7.2rem;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 0.9rem 0 2.3rem;
+    box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.3);
 }
-
 .subscribe input {
+    font-family: 'Poppins';
     border: none;
     border-radius: 3rem;
-    outline: none;
-    margin-left: 1rem;
+    /* outline: none; */
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 3.4rem;
+    line-height: 3.6rem;
     color: #9B9B9B;
 }
-
 .subscribe button {
     color: #DFDFDF;
     background: #000000;
@@ -601,12 +598,12 @@ header nav ul li a {
     outline: none;
     border: none;
     margin: 1.1rem;
-    padding: 1.2rem 2.3rem;
+    padding: 1rem 2.3rem;
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 3.4rem;
-    text-align: center;
+    line-height: 3.6rem;
+    /* text-align: center; */
 }
 /***************************/
 
@@ -624,6 +621,7 @@ header nav ul li a {
     align-items: center;
     color: #6C6C6C;
     width: 43.7rem;
+    margin-top: 0.3rem;
 }
 
 .footer-top .footer-main {
@@ -671,6 +669,10 @@ header nav ul li a {
 .footer-bottom {
     background-color: #000;
 }
+.footer-main .follow li{
+    display: flex;
+    
+}
 
 .footer-bottom p {
     color: white;
@@ -678,11 +680,33 @@ header nav ul li a {
     padding: 4.4rem 0;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 34px;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
     text-align: center;
     color: #DFDFDF;
 }
+.footer-main .contact li:hover i{ 
+    color:#069ABA;
+}
+.footer-main .contact li:hover a,
+.footer-main .Quick li:hover a
+{ 
+    color:#069ABA;
+}
+.footer-main .follow li a:first-child:hover i{
+    color: #3b5998;
+}
+.footer-main .follow li a:nth-child(2):hover i{
+    color:#00acee;
+}
+.footer-main .follow li a:nth-child(3):hover i{
+    color: #ff0000;
+}
+.footer-main .follow li a:last-child:hover i{
+    color:#e4405f;
+}
+
+
 
 
 
