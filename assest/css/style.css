@@ -73,7 +73,7 @@ header nav {
     margin-left: auto;
 }
 
-header nav ul {
+header nav>ul {
     display: flex;
 }
 
@@ -93,6 +93,25 @@ header nav ul li a {
     color: #FFFFFF;
     font-size: 1.6rem;
 
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+.submenu {
+    width: 21rem;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    display: none;
+}
+
+nav>ul>li:hover .submenu {
+    display: block;
 }
 
 /*****************************/
@@ -137,6 +156,7 @@ header nav ul li a {
     margin-top: 3.7rem;
     margin-bottom: 2rem;
 }
+
 .search-box {
     width: 73.6rem;
     background: #FFFFFF;
@@ -147,6 +167,7 @@ header nav ul li a {
     align-items: center;
     padding: 1rem 0.9rem 1rem 2.3rem;
 }
+
 .search-box select {
     font-family: 'Poppins';
     border: none;
@@ -157,6 +178,7 @@ header nav ul li a {
     background: #FFFFFF;
     color: #9B9B9B;
 }
+
 #submit {
     background-color: #000;
     border-radius: 3rem;
@@ -183,9 +205,11 @@ header nav ul li a {
 #explore {
     margin-top: 17.8rem;
 }
-#explore .main-title{
+
+#explore .main-title {
     margin-bottom: 3rem;
 }
+
 .explore-slide {
     border-radius: 1rem;
     padding: 0 1rem;
@@ -317,8 +341,9 @@ header nav ul li a {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
 }
-#choose .main-title{
-    margin-bottom:0.6rem;
+
+#choose .main-title {
+    margin-bottom: 0.6rem;
 }
 
 #choose .main-title,
@@ -405,12 +430,14 @@ header nav ul li a {
     margin-bottom: 6.7rem;
     margin-top: 2rem;
 }
+
 #tour .partner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15rem;
 }
+
 /*****************************/
 
 /**********client************/
@@ -544,7 +571,6 @@ header nav ul li a {
 #price::before {
     content: '';
     inset: 0;
-    height: 54.2rem;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -580,6 +606,7 @@ header nav ul li a {
     padding: 0 0.9rem 0 2.3rem;
     box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.3);
 }
+
 .subscribe input {
     font-family: 'Poppins';
     border: none;
@@ -591,6 +618,7 @@ header nav ul li a {
     line-height: 3.6rem;
     color: #9B9B9B;
 }
+
 .subscribe button {
     color: #DFDFDF;
     background: #000000;
@@ -605,6 +633,7 @@ header nav ul li a {
     line-height: 3.6rem;
     /* text-align: center; */
 }
+
 /***************************/
 
 /*********footer-top********/
@@ -669,9 +698,10 @@ header nav ul li a {
 .footer-bottom {
     background-color: #000;
 }
-.footer-main .follow li{
+
+.footer-main .follow li {
     display: flex;
-    
+
 }
 
 .footer-bottom p {
@@ -685,29 +715,137 @@ header nav ul li a {
     text-align: center;
     color: #DFDFDF;
 }
-.footer-main .contact li:hover i{ 
-    color:#069ABA;
+
+.footer-main .contact li:hover i {
+    color: #069ABA;
 }
+
 .footer-main .contact li:hover a,
-.footer-main .Quick li:hover a
-{ 
-    color:#069ABA;
+.footer-main .Quick li:hover a {
+    color: #069ABA;
 }
-.footer-main .follow li a:first-child:hover i{
+
+.footer-main .follow li a:first-child:hover i {
     color: #3b5998;
 }
-.footer-main .follow li a:nth-child(2):hover i{
-    color:#00acee;
+
+.footer-main .follow li a:nth-child(2):hover i {
+    color: #00acee;
 }
-.footer-main .follow li a:nth-child(3):hover i{
+
+.footer-main .follow li a:nth-child(3):hover i {
     color: #ff0000;
 }
-.footer-main .follow li a:last-child:hover i{
-    color:#e4405f;
+
+.footer-main .follow li a:last-child:hover i {
+    color: #e4405f;
 }
 
-
-
-
-
 /***************************/
+
+/* 1366 - 1440 (laptop)*/
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 134rem;
+    }
+
+    #hero h1 {
+        padding-top: 30rem;
+        line-height: 9rem;
+    }
+
+    header nav ul li {
+        margin-right: 5.2rem;
+    }
+
+    #explore {
+        margin-top: 5.8rem;
+    }
+
+    #explore .main-title {
+        margin-bottom: 0;
+    }
+
+    .explore-slider .swiper-wrapper {
+        padding-top: 8rem;
+    }
+
+    .explore-slider .swiper-button-prev,
+    .explore-slider .swiper-button-next {
+        width: 4.9rem;
+        height: 4.6rem;
+    }
+    .explore-img {
+        height: 35.1rem;
+    }
+    .explore-slider .swiper-button-prev::after,
+    .explore-slider .swiper-button-next::after {
+        font-size: 2rem;
+    }
+
+    #choose {
+        margin-top: 5.8rem;
+    }
+
+    #choose .main-title {
+        margin-bottom: 0;
+    }
+
+    #choose .swiper-button-prev,
+    #choose .swiper-button-next {
+        width: 4.9rem;
+        height: 4.6rem;
+    }
+
+    #choose .swiper-button-prev::after,
+    #choose .swiper-button-next::after {
+        font-size: 2rem;
+    }
+
+    .choose-slider .swiper-wrapper {
+        padding: 11rem 0;
+    }
+
+    #tour .sub-title {
+        margin-bottom: 2.7rem;
+    }
+
+    #client .client-container {
+        margin-left: calc((100% - 134rem)/ 2);
+    }
+
+    #client {
+        margin-top: 5.8rem;
+    }
+
+    #client .sub-title {
+        margin-top: 0;
+    }
+
+    .test-nav .swiper-button-prev,
+    .test-nav .swiper-button-next {
+        width: 4.9rem;
+        height: 4.6rem;
+    }
+
+    #client .swiper-button-prev::after,
+    #client .swiper-button-next::after {
+        font-size: 2rem;
+    }
+
+    .client-slider .swiper-wrapper {
+        padding: 2rem 0;
+    }
+    #price {
+        margin-top: 5.8rem;
+    }
+    #price .sub-title {
+        margin-top: 0;
+        margin-bottom: 4.8rem;
+    }
+    .footer-top {
+        padding: 3.8rem 0;
+    }
+    .footer-bottom p {
+        padding: 1.4rem 0;
+    }
