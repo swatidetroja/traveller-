@@ -36,8 +36,8 @@ ul {
 
 .main-title {
     font-weight: 600;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 6rem;
+    line-height: 7rem;
     text-align: center;
     color: #020202;
     max-width: 74rem;
@@ -46,8 +46,8 @@ ul {
 
 .sub-title {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
     text-align: center;
     color: #878787;
 }
@@ -186,7 +186,7 @@ nav>ul>li:hover .submenu {
     padding: 1.2rem 2.3rem;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 3.6rem;
     color: #FFFFFF;
 }
@@ -283,7 +283,7 @@ nav>ul>li:hover .submenu {
 }
 
 .explore-slider .swiper-wrapper {
-    padding-top: 13rem;
+    padding: 13rem 0;
 }
 
 .explore-slider .swiper-button-prev::after,
@@ -420,9 +420,6 @@ nav>ul>li:hover .submenu {
 
 /*****************************/
 /*********tour*************/
-#tour {
-    /* margin-top: 17.8rem; */
-}
 
 #tour .sub-title {
     width: 63rem;
@@ -511,11 +508,13 @@ nav>ul>li:hover .submenu {
 
 .client-data img {
     margin-top: 5rem;
+    margin-bottom: 1.8rem;
 }
 
 .client-data {
     box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.10);
     padding: 9rem 5.4rem 5.1rem 5.3rem;
+    border-radius: 1rem;
 }
 
 .client-data p {
@@ -566,13 +565,6 @@ nav>ul>li:hover .submenu {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-}
-
-#price::before {
-    content: '';
-    inset: 0;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #price .main-title {
@@ -639,6 +631,18 @@ nav>ul>li:hover .submenu {
 /*********footer-top********/
 .footer-top {
     padding: 7rem 0;
+}
+
+.footer-main .logo img {
+    width: 38rem;
+    height: 8.4rem;
+}
+
+.logo img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .footer-top .logo p {
@@ -755,51 +759,53 @@ nav>ul>li:hover .submenu {
     }
 
     header nav ul li {
-        margin-right: 5.2rem;
+        margin-right: 5.7rem;
     }
 
     #explore {
-        margin-top: 5.8rem;
+        margin-top: 15.8rem;
     }
 
     #explore .main-title {
-        margin-bottom: 0;
+        margin-bottom: 2rem;
     }
 
     .explore-slider .swiper-wrapper {
-        padding-top: 8rem;
+        padding: 10rem 0;
     }
 
     .explore-slider .swiper-button-prev,
     .explore-slider .swiper-button-next {
-        width: 4.9rem;
-        height: 4.6rem;
+        width: 5.9rem;
+        height: 5.6rem;
     }
+
     .explore-img {
         height: 35.1rem;
     }
+
     .explore-slider .swiper-button-prev::after,
     .explore-slider .swiper-button-next::after {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     #choose {
-        margin-top: 5.8rem;
+        margin-top: 15.8rem;
     }
 
     #choose .main-title {
-        margin-bottom: 0;
+        margin-bottom: 0.5rem;
     }
 
     #choose .swiper-button-prev,
     #choose .swiper-button-next {
-        width: 4.9rem;
-        height: 4.6rem;
+        width: 5.9rem;
+        height: 5.6rem;
     }
 
     #choose .swiper-button-prev::after,
     #choose .swiper-button-next::after {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .choose-slider .swiper-wrapper {
@@ -807,7 +813,7 @@ nav>ul>li:hover .submenu {
     }
 
     #tour .sub-title {
-        margin-bottom: 2.7rem;
+        margin-bottom: 5.7rem;
     }
 
     #client .client-container {
@@ -815,37 +821,124 @@ nav>ul>li:hover .submenu {
     }
 
     #client {
-        margin-top: 5.8rem;
+        margin-top: 15.8rem;
     }
 
     #client .sub-title {
-        margin-top: 0;
+        margin-top: 1.7rem;
     }
 
     .test-nav .swiper-button-prev,
     .test-nav .swiper-button-next {
-        width: 4.9rem;
-        height: 4.6rem;
+        width: 6rem;
+        height: 6rem;
     }
 
     #client .swiper-button-prev::after,
     #client .swiper-button-next::after {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .client-slider .swiper-wrapper {
         padding: 2rem 0;
     }
+
     #price {
-        margin-top: 5.8rem;
+        margin-top: 15.8rem;
     }
+
     #price .sub-title {
         margin-top: 0;
-        margin-bottom: 4.8rem;
+        margin-bottom: 7.8rem;
     }
+
     .footer-top {
         padding: 3.8rem 0;
     }
+
     .footer-bottom p {
         padding: 1.4rem 0;
     }
+
+    .footer-main .logo img {
+        width: 35rem;
+        height: 7.4rem;
+    }
+}
+
+/*************************/
+/* 1200 - 1365 (big ipad)*/
+@media screen and (max-width: 1365px) {
+    .container {
+        max-width: 117rem;
+    }
+
+    header nav ul li {
+        margin-right: 4.9rem;
+    }
+
+    #hero h1 {
+        padding-top: 30rem;
+        line-height: 7rem;
+        font-size: 8rem;
+    }
+
+    #hero p {
+        font-size: 1.5rem;
+    }
+
+    .search-box {
+        width: 70.6rem;
+        height: 7rem;
+    }
+
+    .search-box select {
+        font-size: 1.7rem;
+    }
+
+    #submit {
+        font-size: 1.7rem;
+        padding: 1rem 2.3rem
+    }
+
+    #hero p {
+        margin-top: 2.7rem;
+    }
+
+    #explore {
+        margin-top: 14.5rem;
+    }
+
+    .main-title {
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+    .sub-title {
+        font-size: 1.6rem;
+    }
+    .explore-slider .swiper-button-prev,
+    .explore-slider .swiper-button-next {
+        width: 5.5rem;
+        height: 5.4rem;
+    }
+    .explore-slider .swiper-button-prev::after,
+    .explore-slider .swiper-button-next::after {
+        font-size: 2rem;
+    }
+    .explore-img {
+        height: 34.1rem;
+    }
+    .explore-slider .swiper-wrapper {
+        padding: 9rem 0;
+    }
+    #choose {
+        margin-top: 14rem;
+    }
+
+
+
+
+
+
+
+}
