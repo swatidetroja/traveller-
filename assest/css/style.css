@@ -194,8 +194,8 @@ nav>ul>li:hover .submenu {
 .hero-data span {
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
     color: #ECECEC;
 }
 
@@ -434,6 +434,14 @@ nav>ul>li:hover .submenu {
     align-items: center;
     padding: 0 15rem;
 }
+.partner img{
+    width: 18rem;
+}
+.partner img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
 
 /*****************************/
 
@@ -444,10 +452,10 @@ nav>ul>li:hover .submenu {
 }
 
 #client .client-container {
-    margin-left: calc((100% - 137rem)/ 2);
+    margin-left: calc((100% - 137rem) / 2);
 }
 
-.client-slider .swiper-wrapper {
+#client .swiper-wrapper {
     padding: 7rem 0;
 }
 
@@ -462,35 +470,43 @@ nav>ul>li:hover .submenu {
 
 #client .main-title {
     text-align: left;
-    margin: 0rem;
+    margin: 0;
 }
 
 #client .sub-title {
     margin-top: 1.8rem;
+    max-width: 44.3rem;
     text-align: left;
 }
 
-#client p {
+/* #client p {
     max-width: 45rem;
-}
+} */
 
 .client-slide {
     margin: 0 2.2rem;
     background-color: #FFFFFF;
 }
 
-.client-img{
-    width: 13rem;
+.client-img {
+    max-width: 13rem;
     height: 13rem;
 }
 
-.client-img img{
+.client-img img {
+    display: inline-block;
     object-fit: cover;
     object-position: center center;
     position: absolute;
     top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.client-slide .client-data {
+    box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.10);
+    padding: 9rem 5.4rem 5.1rem 5.3rem;
+    border-radius: 1rem;
 }
 
 .client-slide .client-data h4 {
@@ -502,13 +518,13 @@ nav>ul>li:hover .submenu {
     color: #000000;
 }
 
-.client-data h4+p {
+.client-slide .client-data h4+p {
     max-width: 100%;
     text-align: center;
     color: #858585;
 }
 
-.client-data img {
+.client-slide .client-data img {
     margin: 5rem 0.7rem 2rem 0;
     width: 2.1rem;
     height: 2.1rem;
@@ -517,23 +533,18 @@ nav>ul>li:hover .submenu {
     display: inline-block;
 }
 
-.client-data {
-    box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.10);
-    padding: 9rem 5.4rem 5.1rem 5.3rem;
-    border-radius: 1rem;
-}
-.client-data p {
-    width: 29.2rem;
+.client-slide .client-data p {
+    max-width: 29.2rem;
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 2.8rem;
     color: #858585;
 }
+
 .test-nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5rem;
 }
 
 .test-nav .swiper-button-prev,
@@ -652,8 +663,8 @@ nav>ul>li:hover .submenu {
 .footer-top .logo p {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     display: flex;
     align-items: center;
     color: #6C6C6C;
@@ -669,8 +680,8 @@ nav>ul>li:hover .submenu {
 .footer-main ul li a {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 34px;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
     display: flex;
     align-items: center;
     color: #6C6C6C;
@@ -683,8 +694,8 @@ nav>ul>li:hover .submenu {
 .footer-main h4 {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 70px;
+    font-size: 2.4rem;
+    line-height: 7rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -806,6 +817,12 @@ nav>ul>li:hover .submenu {
         width: 5.9rem;
         height: 5.6rem;
     }
+    #choose .container .container {
+        max-width: 114rem;
+    }
+    .partner img {
+        width: 17rem;
+    }
 
     #choose .swiper-button-prev::after,
     #choose .swiper-button-next::after {
@@ -843,8 +860,8 @@ nav>ul>li:hover .submenu {
         font-size: 2.1rem;
     }
 
-    .client-slider .swiper-wrapper {
-        padding: 2rem 0;
+    #client .swiper-wrapper {
+        padding: 6rem 0;
     }
 
     #price {
@@ -917,102 +934,403 @@ nav>ul>li:hover .submenu {
         font-size: 5.5rem;
         line-height: 6rem;
     }
+
     .sub-title {
         font-size: 1.6rem;
     }
+
     .explore-slider .swiper-button-prev,
     .explore-slider .swiper-button-next {
         width: 5.5rem;
         height: 5.4rem;
     }
+
     .explore-slider .swiper-button-prev::after,
     .explore-slider .swiper-button-next::after {
         font-size: 2rem;
     }
+
     .explore-img {
         height: 34.1rem;
     }
+
     .explore-slider .swiper-wrapper {
         padding: 12rem 0;
     }
+
     #choose {
         margin-top: 13rem;
     }
-    #choose .swiper-button-prev, #choose .swiper-button-next {
+
+    #choose .swiper-button-prev,
+    #choose .swiper-button-next {
         width: 5.5rem;
         height: 5.4rem;
     }
-    #choose .swiper-button-prev::after, #choose .swiper-button-next::after {
+
+    #choose .swiper-button-prev::after,
+    #choose .swiper-button-next::after {
         font-size: 2rem;
     }
+
     .choose-slider .swiper-wrapper {
         padding: 15rem 0;
     }
+
     .choose-img {
         width: 8.5rem;
         height: 8.7rem;
     }
+
     .choose-slide .choose-data h4 {
         font-size: 2.2rem;
         margin-top: 3.2rem;
         margin-bottom: 1rem;
     }
+
     .choose-slide .choose-data p {
         font-size: 1.7rem;
         margin-bottom: 3.7rem;
     }
+
     .choose-slide .choose-data a {
         font-size: 1.7rem;
     }
+
     .choose-slide {
         padding: 4.4rem 2.1rem 6.5rem 1.9rem;
     }
+    #choose .container .container {
+        max-width: 108rem;
+    }
+   
     #tour .sub-title {
         margin-top: 1.9rem;
     }
-    #choose .container .container {
-        max-width: 110rem;
+    .partner img {
+        width: 16rem;
     }
+
     #tour .partner {
         padding: 0px 10rem;
     }
+
     #client {
         margin-top: 13.8rem;
     }
+
     #client .client-container {
         margin-left: calc((100% - 117rem)/ 2);
     }
-    .test-nav .swiper-button-prev, .test-nav .swiper-button-next {
+
+    .test-nav .swiper-button-prev,
+    .test-nav .swiper-button-next {
         width: 5.5rem;
         height: 5.4rem;
     }
+
     .client-data {
         padding: 8rem 5.2rem 5rem 5rem;
     }
-    .client-img img{
+
+    .client-img img {
         width: 12rem;
         height: 12rem;
     }
 
-
-
-
-
-    
-
-
-
-
-
-
-
-}
-
-@media screen and (min-width: 2000px) {
-
-    .client-data h4+p {
-        margin: 0 auto;
+    .client-slide .client-data h4 {
+        font-size: 2.1rem;
     }
 
+    .client-slide .client-data p {
+        font-size: 1.6rem;
+    }
 
+    .client-slide .client-data img {
+        margin: 4.5rem 0.7rem 2rem 0;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .client-slide .client-data p {
+        font-size: 1.5rem;
+    }
+
+    .client-slide .client-data {
+        padding: 8rem 5rem 5rem 5rem;
+    }
+
+    #client .sub-title {
+        margin-top: 1.6rem;
+    }
+
+    #client .swiper-wrapper {
+        padding: 5.5rem 0;
+    }
+
+    #price .sub-title {
+        margin-bottom: 6.8rem;
+    }
+
+    .subscribe input {
+        font-size: 1.9rem;
+    }
+
+    .subscribe button {
+        padding: 1rem 2.1rem;
+    }
+
+    .footer-main .logo img {
+        width: 33rem;
+        height: 7rem;
+    }
+
+    .footer-top .logo p {
+        font-size: 1.6rem;
+    }
+
+    .footer-main h4 {
+        font-size: 2.4rem;
+    }
+
+    .footer-main ul li a {
+        font-size: 1.7rem;
+    }
+
+    .footer-main .follow i {
+        margin-right: 2.6rem;
+    }
+    .footer-bottom p {
+        padding: 1.3rem 0;
+    }
+}
+
+/*************************/
+/* 992 - 1199 (big tablet)*/
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 96rem;
+    }
+
+    header nav ul li a {
+        font-size: 1.6rem;
+    }
+
+    header nav ul li {
+        margin-right: 3.9rem;
+    }
+    .search i {
+        margin-right: 2rem;
+    }
+
+    #hero h1 {
+        padding-top: 25rem;
+        font-size: 7rem;
+    }
+
+    #hero p {
+        margin-top: 2.5rem;
+    }
+    header nav ul li {
+        margin-right: 3.2rem;
+    }
+    .search-box {
+        width: 67.6rem;
+        height: 7rem;
+    }
+    #submit {
+        font-size: 1.7rem;
+        padding: 1rem 2rem;
+    }
+    #hero p {
+        margin-top: 2.3rem;
+    }
+    .hero-data span {
+        font-size: 1.7rem;
+    }
+    .main-title {
+        font-size: 5rem;
+
+    }
+    .sub-title {
+        font-size: 1.5rem;
+    }
+    #explore .main-title {
+        margin-bottom: 1.5rem;
+    }
+    .explore-slider .swiper-button-prev, .explore-slider .swiper-button-next {
+        width: 5rem;
+        height: 5rem;
+    }
+    .explore-slider .swiper-button-prev::after, .explore-slider .swiper-button-next::after {
+        font-size: 1.8rem;
+    }
+    .explore-slider .swiper-wrapper {
+        padding: 10.5rem 0;
+    }
+    .explore-img {
+        height: 32.1rem;
+        border-radius: 1rem;
+    }
+    #explore {
+        margin-top: 12.5rem;
+    }
+    #choose {
+        margin-top: 10rem;
+    }
+    #choose .container .container {
+        max-width: 88rem;
+    }
+    #choose .swiper-button-prev, #choose .swiper-button-next {
+        width: 5rem;
+        height: 5rem;
+    }
+    .choose-img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .choose-slide .choose-data h4 {
+        font-size: 2.1rem;
+        margin-top: 3rem;
+    }
+    .choose-slide .choose-data p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+    .choose-slide {
+        padding: 4.2rem 2rem 6.3rem 1.7rem;
+    }
+    .choose-slider .swiper-wrapper {
+        padding: 14rem 0;
+    }
+    
+    #tour .sub-title {
+        margin-bottom: 4.7rem;
+    }
+    .partner img {
+        width: 14rem;
+    }
+    #client {
+        margin-top: 11.8rem;
+    }
+    #client .client-container {
+        margin-left: calc((100% - 96rem)/ 2);
+    }
+    .client-img img {
+        width: 11rem;
+        height: 11rem;
+    }
+    .client-slide .client-data h4 {
+        font-size: 2rem;
+    }
+    .client-slide .client-data p {
+        font-size: 1.4rem;
+    }
+    .client-slide .client-data img {
+        margin: 4.5rem 0.7rem 2rem 0;
+        width: 1.9rem;
+    }
+    .test-nav .swiper-button-prev, .test-nav .swiper-button-next {
+        width: 5rem;
+        height: 5rem;
+    }
+    .subscribe {
+        width: 67.6rem;
+        height: 7rem;
+        padding: 0 0.5rem 0 2.3rem;
+    }
+    .subscribe input {
+        font-size: 1.7rem;
+    }
+    .subscribe button {
+        font-size: 1.7rem;
+    }
+    .subscribe button {
+        padding: 0.8rem 2rem;
+    }
+    .footer-main .logo img {
+        width: 30rem;
+        height: 7rem;
+    }
+    .footer-top .logo p {
+        font-size: 1.5rem;
+        width: 37.7rem;
+    }
+    .footer-main h4 {
+        font-size: 2rem;
+    }
+    .footer-main ul li a {
+        font-size: 1.5rem;
+    }
+    .footer-bottom p {
+        padding: 1.2rem 0;
+    }
+    .footer-main .follow i {
+        font-size: 2.3rem;
+    }
+    .footer-main h4 {
+        margin-bottom: 0.3rem;
+    }
+    .footer-main .follow i {
+        margin-right: 2rem;
+    }
+}
+    /*************************/
+/* 768 - 991 (big tablet)*/
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 75rem;
+    }
+    header nav ul li a {
+        font-size: 1.4rem;
+    }
+    .logo img {
+        width: 19rem;
+    }
+    header nav ul li {
+        margin-right: 2rem;
+    }
+    header nav ul li a {
+        font-size: 1.3rem;
+    }
+    #hero h1 {
+        padding-top: 23rem;
+    }
+    #hero h1 {
+        font-size: 6.5rem;
+    }
+    .search-box {
+        width: 66.6rem;
+        height: 6rem;
+    }
+    .search-box select {
+        font-size: 1.5rem;
+    }
+    #submit {
+        font-size: 1.6rem;
+        padding: 0.8rem 1.8rem;
+    }
+    .hero-data span {
+        font-size: 1.6rem;
+    }
+    #explore {
+        margin-top: 11rem;
+    }
+    #explore .main-title {
+        margin-bottom: 1.4rem;
+    }
+    .main-title {
+        font-size: 4.5rem;
+        width: 56rem;
+    }
+    .sub-title {
+        font-size: 1.4rem;
+    }
+    .explore-slider .swiper-button-prev, .explore-slider .swiper-button-next {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .explore-slider .swiper-button-prev::after, .explore-slider .swiper-button-next::after {
+        font-size: 1.6rem;
+    }
 }
