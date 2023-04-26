@@ -434,10 +434,12 @@ nav>ul>li:hover .submenu {
     align-items: center;
     padding: 0 15rem;
 }
-.partner img{
+
+.partner img {
     width: 18rem;
 }
-.partner img img{
+
+.partner img img {
     width: 100%;
     object-fit: cover;
     object-position: center center;
@@ -817,9 +819,11 @@ nav>ul>li:hover .submenu {
         width: 5.9rem;
         height: 5.6rem;
     }
+
     #choose .container .container {
         max-width: 114rem;
     }
+
     .partner img {
         width: 17rem;
     }
@@ -1000,13 +1004,15 @@ nav>ul>li:hover .submenu {
     .choose-slide {
         padding: 4.4rem 2.1rem 6.5rem 1.9rem;
     }
+
     #choose .container .container {
         max-width: 108rem;
     }
-   
+
     #tour .sub-title {
         margin-top: 1.9rem;
     }
+
     .partner img {
         width: 16rem;
     }
@@ -1100,6 +1106,7 @@ nav>ul>li:hover .submenu {
     .footer-main .follow i {
         margin-right: 2.6rem;
     }
+
     .footer-bottom p {
         padding: 1.3rem 0;
     }
@@ -1111,6 +1118,7 @@ nav>ul>li:hover .submenu {
     .container {
         max-width: 95%;
     }
+
     header nav ul li a {
         font-size: 1.6rem;
     }
@@ -1118,12 +1126,15 @@ nav>ul>li:hover .submenu {
     header nav ul li {
         margin-right: 3rem;
     }
+
     .search i {
         font-size: 1.6rem;
     }
+
     #hero {
         height: 95%;
     }
+
     #hero h1 {
         padding-top: 25rem;
         font-size: 7rem;
@@ -1132,334 +1143,524 @@ nav>ul>li:hover .submenu {
     #hero p {
         margin-top: 2.5rem;
     }
+
     header nav ul li {
         margin-right: 3.2rem;
     }
+
     .search-box {
         width: 67.6rem;
         height: 7rem;
     }
+
     #submit {
         font-size: 1.7rem;
         padding: 1rem 2rem;
     }
+
     #hero p {
         margin-top: 2.3rem;
     }
+
     .hero-data span {
         font-size: 1.7rem;
     }
+
     .main-title {
         font-size: 5rem;
 
     }
+
     .sub-title {
         font-size: 1.5rem;
     }
+
     #explore .main-title {
         margin-bottom: 1.5rem;
     }
-    .explore-slider .swiper-button-prev, .explore-slider .swiper-button-next {
+
+    .explore-slider .swiper-button-prev,
+    .explore-slider .swiper-button-next {
         width: 5rem;
         height: 5rem;
     }
+
     .explore-slide {
         padding: 0px 2rem;
     }
-    .test-nav .swiper-button-prev, .test-nav .swiper-button-next {
+
+    .test-nav .swiper-button-prev,
+    .test-nav .swiper-button-next {
         margin-right: 3rem;
     }
-    .explore-slider .swiper-button-prev::after, .explore-slider .swiper-button-next::after {
+
+    .explore-slider .swiper-button-prev::after,
+    .explore-slider .swiper-button-next::after {
         font-size: 1.8rem;
     }
+
     .explore-slider .swiper-wrapper {
         padding: 10.5rem 0;
     }
+
     .explore-img {
         height: 32.1rem;
         border-radius: 1rem;
     }
+
     #explore {
         margin-top: 12.5rem;
     }
+
     #choose {
         margin-top: 10rem;
     }
+
     #choose .container .container {
         max-width: 88rem;
     }
-    #choose .swiper-button-prev, #choose .swiper-button-next {
+
+    #choose .swiper-button-prev,
+    #choose .swiper-button-next {
         width: 5rem;
         height: 5rem;
     }
+
     .choose-img {
         width: 8rem;
         height: 8rem;
     }
+
     .choose-slide .choose-data h4 {
         font-size: 2.1rem;
         margin-top: 3rem;
     }
+
     .choose-slide .choose-data p {
         font-size: 1.6rem;
         margin-bottom: 3rem;
     }
+
     .choose-slide {
         padding: 4.2rem 2rem 6.3rem 1.7rem;
     }
+
     .choose-slider .swiper-wrapper {
         padding: 14rem 0;
     }
-    
+
     #tour .sub-title {
         margin-bottom: 4.7rem;
     }
+
     .partner img {
         width: 14rem;
     }
+
     #tour .partner {
         padding: 0px 9rem;
     }
+
     #client {
         margin-top: 11.8rem;
     }
+
     #client .client-container {
         margin-left: calc((100% - 96rem)/ 2);
     }
+
     .client-img img {
         width: 11rem;
         height: 11rem;
     }
+
     .client-slide .client-data h4 {
         font-size: 2rem;
     }
+
     .client-slide .client-data p {
         font-size: 1.4rem;
     }
+
     .client-slide .client-data img {
         margin: 4.5rem 0.7rem 2rem 0;
         width: 1.9rem;
     }
-    .test-nav .swiper-button-prev, .test-nav .swiper-button-next {
+
+    .test-nav .swiper-button-prev,
+    .test-nav .swiper-button-next {
         width: 5rem;
         height: 5rem;
     }
+
     .subscribe {
         width: 67.6rem;
         height: 7rem;
         padding: 0 0.5rem 0 2.3rem;
     }
+
     .subscribe input {
         font-size: 1.7rem;
     }
+
     .subscribe button {
         font-size: 1.7rem;
     }
+
     .subscribe button {
         padding: 0.8rem 2rem;
     }
+
     .footer-main .logo img {
         width: 30rem;
         height: 7rem;
     }
+
     .footer-top .logo p {
         font-size: 1.5rem;
         width: 37.7rem;
     }
+
     .footer-main h4 {
         font-size: 2rem;
     }
+
     .footer-main ul li a {
         font-size: 1.5rem;
     }
+
     .footer-bottom p {
         padding: 1.2rem 0;
     }
+
     .footer-main .follow i {
         font-size: 2.3rem;
     }
+
     .footer-main h4 {
         margin-bottom: 0.3rem;
     }
+
     .footer-main .follow i {
         margin-right: 2rem;
     }
 }
-    /*************************/
+
+/*************************/
 /* 768 - 991 (big tablet)*/
 @media screen and (max-width: 991px) {
     .container {
         max-width: 95%;
     }
     header nav ul li a {
-        font-size: 1.4rem;
-    }
-    .search i {
-        font-size: 1.4rem;
-    }
-    .logo img {
-        width: 19rem;
+        font-size: 1.2rem;
     }
     header nav ul li {
-        margin-right: 2rem;
+        margin-right: 2.1rem;
+    }
+    
+    header .logo {
+        width: 34%;
+    }
+    .search i {
+        font-size: 1.2rem;
     }
     #hero h1 {
         padding-top: 23rem;
     }
+
     #hero h1 {
         font-size: 6.5rem;
     }
+
     #hero p {
         font-size: 1.4rem;
         margin-top: 2rem;
         line-height: 3rem;
     }
+
     .search-box {
         width: 57.6rem;
-        height: 6rem;
+        height: 5rem;
+    }
+    .search-box {
+        padding: 1rem 0.8rem 1rem 2.3rem;
     }
     .search-box select {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
+
     #submit {
-        font-size: 1.6rem;
-        padding: 0.6rem 1.8rem;
+        font-size: 1.4rem;
+        padding: 0.4rem 1.8rem;
     }
+
     .hero-data span {
         font-size: 1.6rem;
     }
+
     #explore {
         margin-top: 11rem;
     }
+
     #explore .main-title {
         margin-bottom: 1.4rem;
     }
-    #explore .main-title{
+
+    #explore .main-title {
         width: 56rem;
     }
+
     .main-title {
         font-size: 4.5rem;
-        
+
     }
+
     .sub-title {
         font-size: 1.4rem;
     }
-    .explore-slider .swiper-button-prev, .explore-slider .swiper-button-next {
+
+    .explore-slider .swiper-button-prev,
+    .explore-slider .swiper-button-next {
         width: 4.5rem;
         height: 4.5rem;
     }
-    .explore-slider .swiper-button-prev::after, .explore-slider .swiper-button-next::after {
+
+    .explore-slider .swiper-button-prev::after,
+    .explore-slider .swiper-button-next::after {
         font-size: 1.6rem;
     }
+
     .explore-data h4 {
         font-size: 2rem;
         line-height: 3rem;
     }
+
     .explore-circle span {
-        font-size: 6rem;
+        font-size: 5rem;
         line-height: 12.6rem;
-        margin: -1.4rem 2.4rem;
+        margin: -1.6rem 2.4rem;
     }
+
     .explore-circle {
         width: 7rem;
         height: 6.6rem;
     }
+
     #choose {
-        margin-top: 9rem;
+        margin-top: 0;
     }
-    #choose .container .container {
-        max-width: 91%;
+    #choose {
+        background-size: 100% 52.2rem;
     }
-    #choose .swiper-button-prev, #choose .swiper-button-next{
+    #choose::before {
+        height: 52.2rem;
+    }
+    #choose .swiper-button-prev,
+    #choose .swiper-button-next {
         width: 4.5rem;
         height: 4.5rem;
     }
-    #choose .swiper-button-prev::after, #choose .swiper-button-next::after {
+
+    #choose .swiper-button-prev::after,
+    #choose .swiper-button-next::after {
         font-size: 1.6rem;
+    }
+    #choose .container .container {
+        max-width: 67rem;
     }
     .choose-img {
         width: 7rem;
         height: 7rem;
     }
+
     .choose-slide .choose-data h4 {
         font-size: 2rem;
         margin-top: 2rem;
     }
+
     .choose-slide .choose-data p {
         font-size: 1.5rem;
         margin-bottom: 2rem;
     }
+
     .choose-slide {
         padding: 4rem 1.9rem 5.1rem 1.5rem;
     }
+
     .choose-slider .swiper-wrapper {
         padding: 13rem 0;
     }
+
     #tour .sub-title {
         margin-bottom: 4rem;
     }
+
     #tour .partner {
         padding: 0px 8rem;
         flex-wrap: wrap;
         width: 98%;
         justify-content: space-evenly;
     }
+
     #client {
         margin-top: 10.8rem;
     }
+
     #client .client-container {
         margin-left: calc((100% - 95%)/ 2);
     }
+
     #client h3 {
         font-size: 2.5rem;
         line-height: 6rem;
     }
+
     #client .sub-title {
         margin-top: 1rem;
     }
+
     .test-nav {
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
+    .test-nav .swiper-button-prev, .test-nav .swiper-button-next {
+        margin-right: 5rem;
+    }
+
     #client .swiper-wrapper {
-        padding: 4.5rem 0;
+        padding: 4rem 0;
     }
     .client-img img {
         width: 9.5rem;
         height: 9.5rem;
+        top: 19%;
     }
+
     .client-slide .client-data h4 {
         font-size: 1.8rem;
     }
+
     .client-slide .client-data h4+p {
         font-size: 1.3rem;
     }
+
     .client-slide .client-data img {
         margin: 3rem 0.7rem 1.5rem 0;
         width: 1.9rem;
     }
+
     .client-slide .client-data {
-        padding: 5rem 5rem 3rem 5rem;
+        padding: 3rem 4rem 2rem 4rem;
     }
+
     #price {
         margin-top: 12.8rem;
+        padding: 2.6rem 0 11.7rem 0;
     }
+
     .subscribe {
         width: 57.6rem;
-        height: 6rem;
+        height: 5rem;
         padding: 0 0 0 2.8rem;
     }
+
     .subscribe input {
-        font-size: 1.5rem;
-    }
-    .subscribe button {
-        padding: 0.7rem 2rem;
-    }
-    .subscribe button {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
+    .subscribe button {
+        padding: 0.4rem 2.2rem;
+    }
+    .subscribe button {
+        margin: 0.5rem;
+        font-size: 1.4rem;
+    }
 
-    
-    
+    .footer-main .logo img {
+        width: 28rem;
+        height: 6rem;
+    }
+
+    .footer-top .logo p {
+        font-size: 1.4rem;
+        width: 33.7rem;
+    }
+
+    .footer-top .footer-main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .footer-main h4 {
+        font-size: 1.9rem;
+    }
+
+    .footer-main ul li a {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+
+    .footer-main .follow i {
+        margin-right: 1.5rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .contact {
+        width: 34%;
+    }
+
+    .Quick {
+        width: 50%;
+    }
+
+    .follow {
+        width: 34%;
+    }
+
+    .footer-bottom p {
+        padding: 1rem 0;
+    }
+}
+/*************************/
+/* 575 - 767 (big tablet)*/
+@media screen and (max-width:767px){
+
+    header .logo {
+        width: 30%;
+    }
+    #hero h1 {
+        font-size: 5.5rem;
+    }
+    #hero h1 {
+        padding-top: 21rem;
+    }
+    #hero p {
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+    .search-box {
+        width: 44.6rem;
+        height: 4rem;
+    }
+    .search-box select {
+        font-size: 1.2rem;
+    }
+    #submit {
+        font-size: 1.2rem;
+        padding: 0 1.2rem;
+    }
+    .search-box {
+        padding: 1rem 0.5rem 1rem 2.3rem;
+    }
+    .hero-data span {
+        font-size: 1.3rem;
+    }
+
 }
